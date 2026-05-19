@@ -3,7 +3,7 @@ class Program
     static void Main(string[] args)
     {
         // Создаём экземпляры модулей
-        OrderCalculator calculator = new OrderCalculator();
+        ICalculator calculator = new OrderCalculator();
         ResultPrinter printer = new ResultPrinter();
 
 
@@ -19,4 +19,4 @@ class Program
         printer.PrintResult(total);
     }
 }
-ICalculator calculator = new OrderCalculator();
+
