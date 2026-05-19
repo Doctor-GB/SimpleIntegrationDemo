@@ -19,3 +19,4 @@ class Program
         printer.PrintResult(total);
     }
 }
+ICalculator calculator = new OrderCalculator();
