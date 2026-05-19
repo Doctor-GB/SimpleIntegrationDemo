@@ -1,4 +1,4 @@
-public class OrderCalculator
+public class OrderCalculator : ICalculator
 {
     private const decimal DiscountThreshold = 1000;
     private const decimal DiscountPercent = 0.1m; // 10%
